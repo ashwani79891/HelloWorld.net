@@ -4,9 +4,6 @@
 # https://aka.ms/yaml
 
 trigger:
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'build'
 - main
 
 pool:
