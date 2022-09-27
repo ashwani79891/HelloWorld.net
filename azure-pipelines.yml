@@ -2,7 +2,7 @@ name: sampledemo_$(Date:yyyyMMdd)$(Rev:r)
 trigger:
  - Main
 pool:
- name: new 1
+ name: ashwanipool
 steps:
 - task: VSBuild@1
   inputs:
